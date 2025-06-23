@@ -1,0 +1,58 @@
+* {
+    font-family: tahoma;
+    box-sizing: border-box;
+}
+
+body {
+    background:linear-gradient(to right, dodgerblue, rgb(0, 195, 255));
+}
+
+.kue {
+    width: 200px;
+    border-radius: 5px;
+    background-color: cornsilk;
+    padding: 5px;
+    box-shadow: 3px 5px 8px blue;
+
+
+    /* Animate */
+    animation: kue 0.5s infinite alternate;
+}
+
+@keyframes kue {
+    from {
+        transform: rotate(-5deg);
+    }
+    to {
+        transform: rotate(5deg);
+    }
+}
+
+.selamat {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, skyblue, #a1d8fa);
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 3px 5px 8px blue;
+}
+
+.tulisan {
+    padding: 5px;
+    animation:tulisan 3s infinite alternate;
+    position: relative;
+}
+
+@keyframes tulisan {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 50px;
+    }
+}
