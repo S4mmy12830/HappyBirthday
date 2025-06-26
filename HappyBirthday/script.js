@@ -4,7 +4,7 @@ const from = document.getElementById('from');
 const music = document.getElementById('ultah');
 
 kue.addEventListener('click', () => {
-    text.textContent = 'Happy Birthday Yemima Jelek❤';
+    text.textContent = 'Happy Birthday';
     from.textContent = 'dari Sammy dan teman-teman';
     music.play();
 });
