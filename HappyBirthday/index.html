@@ -1,27 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday</title>
-    <link rel="icon" href="images/KueUltah.jpg">
-    <link rel="stylesheet" href="styles.css">
+    <title>Ucapan Ulang Tahun untuk Teman Laki-laki</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="selamat">
-        <!-- Image Kue -->
-        <img src="images/KueUltah.jpg" alt="kueultah" class="kue" id="kue">
-        <!-- Tulisan Klik -->
-        <h1 class="tulisan" id="tulisan">Klik kue di atas</h1>
-        <!-- Text Content After Klik -->
-        <h2 class="hbd" id="hbd"></h2>
-        <p id="from"></p>
-
-        <audio id="ultah" loop>
-            <source src="audio/HBD.mp3" type="audio/mpeg">
-        </audio>
+    <div class="container">
+        <div class="card male-card">
+            <h1>Selamat Ulang Tahun, Bro!</h1>
+            <div class="birthday-image">
+                <img id="cakeImage" src="./images/KueUltah.jpg" alt="Kue Ulang Tahun">
+            </div>
+            <div id="birthdayMessage" class="message hidden">
+                <p>Semoga di usia yang baru ini, kamu diberikan kesehatan yang selalu terjaga, kesuksesan dalam studi dan masa depan, kebahagiaan yang tak terhingga, dan semoga makin jago main bola/game!</p>
+                <p>Terima kasih sudah menjadi teman sekolah yang asik!</p>
+                <p class="signature">- Sammy :)</p>
+            </div>
+        </div>
     </div>
-
+    <audio id="birthdayMusic">
+        <source src="audio/HBD.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
     <script src="script.js"></script>
 </body>
 </html>
